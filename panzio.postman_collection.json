@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "ce82f76f-992e-462b-92ef-deac672e2acd",
+		"name": "panzio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41522760"
+	},
+	"item": [
+		{
+			"name": "szerver futtatása",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3567",
+					"host": [
+						"localhost"
+					],
+					"port": "3567"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1. lekérdezés",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3567/szobak",
+					"host": [
+						"localhost"
+					],
+					"port": "3567",
+					"path": [
+						"szobak"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. lekérdezés",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. lekérdezés",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
